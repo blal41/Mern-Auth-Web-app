@@ -32,10 +32,12 @@ Before you begin, ensure you have met the following requirements:
 
 ## Install dependencies for both server and client:
 for server
+
     ```bash
     npm install
 
 cd frontend-app
+
     ```bash
     npm install
 
@@ -50,11 +52,13 @@ JWT_SECRET=your_jwt_secret_key
 
 ## Start Server for both server and client:
 for server
+
     ```bash
     npm run dev
 
 
 cd frontend-app
+
     ```bash
     npm run dev
 
