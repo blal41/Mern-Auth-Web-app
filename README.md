@@ -24,16 +24,20 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/mern-auth-web-app.git
+   git clone : https://github.com/blal41/Mern-Auth-Web-app
 ## Navigate to the project directory:
-cd mern-auth-web-app
 
-# Install dependencies for both server and client:
+     ```bash
+    cd Mern-Auth-Web-app
+
+## Install dependencies for both server and client:
 for server
-npm install
+    ```bash
+    npm install
 
 cd frontend-app
-npm install
+    ```bash
+    npm install
 
 ## Configure environment variables:
 
@@ -46,10 +50,14 @@ JWT_SECRET=your_jwt_secret_key
 
 ## Start Server for both server and client:
 for server
-npm run dev
+    ```bash
+    npm run dev
+
 
 cd frontend-app
-npm run dev
+    ```bash
+    npm run dev
+
 
 pen your web browser and navigate to http://localhost:3000 to access the application.
 
