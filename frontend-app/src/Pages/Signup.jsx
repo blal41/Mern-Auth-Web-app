@@ -41,8 +41,8 @@ const Signup = () => {
   console.log(formData)
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-8 rounded shadow-md w-full sm:w-96">
+    <div className="min-h-screen flex items-center justify-center bg-black">
+      <div className="bg-dark p-8 rounded shadow-md w-full sm:w-96">              
         <h2 className="text-2xl font-semibold mb-6">Sign Up</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">

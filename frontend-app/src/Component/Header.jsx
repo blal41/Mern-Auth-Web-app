@@ -6,7 +6,7 @@ function Header() {
   const { currentUser } = useSelector((state) => state.user);
 
   return (
-    <div className="bg-blue-500">
+    <div className="bg-red-500 text-black">
       <div className="flex justify-between items-center  max-w-6xl mx-auto p-3">
         <Link to="/">
           <h1>Auth Page</h1>
